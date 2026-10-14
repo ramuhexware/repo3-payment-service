@@ -14,6 +14,9 @@ Spring Boot Microservice managing **2 repo-specific tables** and accessing the *
 ## Port
 `8083`
 
+## SQL Schema Files
+- **`schema-repo3-payment-service.sql`**: DDL and seed data for Repo 3 specific tables (`payment_transactions`, `payment_invoices`).
+
 ## Functional Flow
 1. Receives payment charge request with amount and payment method.
 2. Validates user existence against common `app_users` table.
